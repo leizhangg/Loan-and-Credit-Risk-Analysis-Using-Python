@@ -24,7 +24,7 @@ Leanding loans to applicants who are likely to deafult is the largest source of 
 |Inquiry| hard inquiry within last 12 months |
 |Debt_Income_ Ratio| Debt/Income |
 |CR_Score| Credit risk score |
-|Bad| Performance indicator |
+|Bad| Performance indicator, 1=good, 0=bad |
 
 # Data Wrangling 
 We want to make data-driven decisions. So the first step is to make sure the quality of data is usable, complete and reliable before it's analyzed and leveraged. During discovery of dataset, we found that this dataset is in good structure, but some numerical varibles are not in correct data format. There is no duplicates in the dataset, but a lot of missing values. As this dataset is small, deleting null values results in small dataset, so we will leave it. 
