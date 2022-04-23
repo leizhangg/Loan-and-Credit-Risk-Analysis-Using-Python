@@ -1,4 +1,4 @@
-In this notebook, I'll showcase how to do loan and credit risk analysis with Python. The sensitive information and dataset has been modified.
+In this notebook, I'll showcase how to conduct loan and credit risk analysis with Python.
 # Introduction
 ### Problem Statement:
 The credit risk department of a financial bank needs to investigate the reasons of customer loan default/delinquency and grow customer insights and develop business intelligence. For this purpose, a sample of about 10,663 loan customers is randomly selected from a huge customer database, and the key business factors, customer credit risk scores and loan performance information are collected for deep-dive risk analyses.
@@ -24,7 +24,7 @@ Leanding loans to applicants who are likely to deafult is the largest source of 
 |Inquiry| hard inquiry within last 12 months |
 |Debt_Income_ Ratio| Debt/Income |
 |CR_Score| Credit risk score |
-|Bad| Performance indicator, 1=good, 0=bad |
+|Bad| Performance indicator, 1=Bad (90 days past due), 0=Good |
 
 # Data Wrangling 
 We want to make data-driven decisions. So the first step is to make sure the quality of data is usable, complete and reliable before it's analyzed and leveraged. During discovery of dataset, we found that this dataset is in good structure, but some numerical varibles are not in correct data format. There is no duplicates in the dataset, but a lot of missing values. As this dataset is small, deleting null values results in small dataset, so we will leave it. 
