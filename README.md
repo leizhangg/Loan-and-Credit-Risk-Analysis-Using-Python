@@ -1,4 +1,5 @@
 In this notebook, I'll showcase how to conduct loan and credit risk analysis with Python.
+- [Intoduction](#Introduction)
 # Introduction
 ### Problem Statement:
 The credit risk department of a financial bank needs to investigate the reasons of customer loan default/delinquency and grow customer insights and develop business intelligence. For this purpose, a sample of about 10,663 loan customers is randomly selected from a huge customer database, and the key business factors, customer credit risk scores and loan performance information are collected for deep-dive risk analyses.
