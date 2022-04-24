@@ -1,7 +1,11 @@
 In this notebook, I'll showcase how to conduct loan and credit risk analysis with Python.
-- [Intoduction](#Introduction)
-   - [Problem Statement](#ProblemStatement)
-- [Problem Statement](#Problem Statement)
+- [Intoduction](#introduction)
+   - [Problem Statement](#problem-statement)
+   - [Objectives](#objectives)
+   - [Dataset Overview](#dataset-description)
+- [Data Wrangling](#data-wrangling)
+- [Exploratory Data Analysis](#data-exploration-and-visualization)
+- 
 
 # Introduction
 ### Problem Statement:
@@ -33,7 +37,7 @@ Leanding loans to applicants who are likely to deafult is the largest source of 
 # Data Wrangling 
 We want to make data-driven decisions. So the first step is to make sure the quality of data is usable, complete and reliable before it's analyzed and leveraged. During discovery of dataset, we found that this dataset is in good structure, but some numerical varibles are not in correct data format. There is no duplicates in the dataset, but a lot of missing values. As this dataset is small, deleting null values results in small dataset, so we will leave it. 
 
-# Data Exploraitiona and Visualization
+# Data Explorationa and Visualization
 After cleaning the dataset, we want to find the 
 
 
