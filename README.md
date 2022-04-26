@@ -35,13 +35,19 @@ Leanding loans to applicants who are likely to deafult is the largest source of 
 |Bad| Performance indicator, 1=Bad (90 days past due), 0=Good |
 
 # Data Wrangling 
-We want to make data-driven decisions. So the first step is to make sure the quality of data is usable, complete and reliable before it's analyzed and leveraged. During discovery of dataset, we found that this dataset is in good structure, but some numerical varibles are not in correct data format. There is no duplicates in the dataset, but a lot of missing values. As this dataset is small, deleting null values results in small dataset, so we will leave it. 
+We want to make data-driven decisions. So the first step is to make sure the quality of data is usable, complete and reliable before it's analyzed and leveraged. During discovery of dataset, we found that this dataset is in good structure, but some numerical varibles are not in correct data format. There is no duplicates in the dataset, but a lot of missing values. As this dataset is small, deleting null values results in small dataset, so we will leave it null. 
 
 # Data Exploration and Visualization
-After cleaning the dataset, we want to find the 
+This step is also known as Exploratory Data Analysis, or EDA. During this process, we will investigate the dataset to discover pattern, form hppotheses based on our understanding of the dataset, and generate summary statistics and visualizations to understand the data better. 
 
+### Loan Reason 
+First, we want to know why are they applying for loan?
 
+<p float="left">
+   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/performance.png" width="500" />
+   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/loan_reason_perfromace.png" width="500" />
+</p>
 
-
+In the sample dataset, 80.1% customers has good performance, and 19.9% of them has bad performance. Among applicants with Bad performance, 66% of them apply loan for Debt Consolidation, and 34% of them are for Home Improvement. 
 
 
