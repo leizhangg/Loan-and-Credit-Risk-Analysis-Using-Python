@@ -79,21 +79,26 @@ During each occupations, Sales have the largest proportion (36%) of loan applica
 ### Years at Job
 Now we know that their occupation pattern and there is no association between occupation and performance. How about their working years? 
 <p align="left">
-   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/yearAtJob_overall.png" width="400" />
-   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/yearAtJob_occupation_bar.png" width="600" />
+   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/yearAtJob_overall.png" width="500" />
+   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/yearAtJob_occupation_bar.png" width="500" />
 </p>
 
 Above charts illustrates that the number of loan applicants decreases as their working years increase. It implies that as people working longer, they have more money or have paid their loans. Accoridng to Chi-square test, there is no association between Years at job and performance.
 
-### Derog report/Delinquentline/Trade line/File age/Inquiry/CR_score distribution
-For thoes factors, I'm interested to know:
+
+For Derog report, Delinquent line, Trade line, File age, Inquiry and CR_score, I'm interested to know:
 - What's the overall distribution of factors?
 - What's the distribution of factors of applicant with Bad performance?
 - Is there any association between factors and performance?
 
+### Derog report /Delinquentline/Trade line/File age/Inquiry/CR_score distribution
 
+<p align="left">
+   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/Derog%20Distribution%20overall.png" width="500" />
+   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/Derog%20Distribution%20by%20Performance.png" width="500" />
+</p>
 
-
+From above graphs, we can tell that 8,097 applicants (~86%) have 0 derogatory reports
 
 
 
