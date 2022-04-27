@@ -95,7 +95,7 @@ For Derog report, Delinquent line, Trade line, File age, Inquiry and CR_score, I
 
 <p align="left">
    <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/Derog%20Distribution%20by%20Performance.png" width="500" />
-   <img src="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/Delq_line%20Distribution%20by%20Performance.png" />
+   <img src="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/Delq_line%20Distribution%20by%20Performance.png" width="500" />
 </p>
 
 From above graphs, we can tell that 8,097 applicants (~86%) have 0 derogatory reports. As the number of derogatory reports increases, the more proportion of Bad performance. It indicates that the number of derogatory report is highly associated with the performance. The more derogatory reports the applicants have, the higher bad rate will be. 
