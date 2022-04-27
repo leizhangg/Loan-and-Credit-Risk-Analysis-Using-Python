@@ -79,8 +79,8 @@ During each occupations, Sales have the largest proportion (36%) of loan applica
 ### Years at Job
 Now we know that their occupation pattern and there is no association between occupation and performance. How about their working years? 
 <p align="left">
-   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/yearAtJob_overall.png" width="500" />
-   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/yearAtJob_occupation_bar.png" width="500" />
+   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/yearAtJob_overall.png" width="550" />
+   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/yearAtJob_occupation_bar.png" width="450" />
 </p>
 
 Above charts illustrates that the number of loan applicants decreases as their working years increase. It implies that as people working longer, they have more money or have paid their loans. Accoridng to Chi-square test, there is no association between Years at job and performance.
@@ -94,11 +94,11 @@ For Derog report, Delinquent line, Trade line, File age, Inquiry and CR_score, I
 ### Derog report /Delinquentline/Trade line/File age/Inquiry/CR_score distribution
 
 <p align="left">
-   <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/Derog%20Distribution%20overall.png" width="500" />
    <img src ="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/Derog%20Distribution%20by%20Performance.png" width="500" />
+   <img src="https://github.com/leizhangg/Loan-and-Credit-Risk-Analysis-Using-Python/blob/main/img/Delq_line%20Distribution%20by%20Performance.png" />
 </p>
 
-From above graphs, we can tell that 8,097 applicants (~86%) have 0 derogatory reports
+From above graphs, we can tell that 8,097 applicants (~86%) have 0 derogatory reports. As the number of derogatory reports increases, the more proportion of Bad performance. It indicates that the number of derogatory report is highly associated with the performance. The more derogatory reports the applicants have, the higher bad rate will be. 
 
 
 
